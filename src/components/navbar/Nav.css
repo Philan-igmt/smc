@@ -1,0 +1,16 @@
+.logo-image {
+  border: 2px purple solid;
+  margin-left: 50px;
+  width: 200px;
+  height: 100px;
+}
+
+li a {
+  font-family: "Indie Flower", cursive;
+  font-size: 6rem;
+  font-weight: 600;
+  font-size: xx-large;
+}
+li a:hover {
+  color: coral;
+}
