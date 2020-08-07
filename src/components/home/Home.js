@@ -8,6 +8,10 @@ function Home() {
   return (
     <div className="home">
       <h2 className="logo black-text center">Sibongokuhle Creative Minds</h2>
+      <div className="center button">
+        <button className="btn black white-text c btn-large">Contact us</button>
+      </div>
+
       <div className="fixed-action-btn">
         <a className="btn-floating btn-large waves-effect waves-light black fixed">
           <i className="material-icons">phone</i>

@@ -14,3 +14,9 @@ li a {
 li a:hover {
   color: coral;
 }
+
+.nav-wrapper {
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}

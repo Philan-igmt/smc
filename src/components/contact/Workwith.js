@@ -23,7 +23,7 @@ function Workwith() {
           <div className="input-field  ">
             <textarea
               name="message"
-              placeholder="comment"
+              placeholder="message..."
               id=""
               cols="60"
               rows="10"

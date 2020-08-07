@@ -1,4 +1,4 @@
-.toppart {
+.services {
   height: 200px;
   width: 100%;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.cont {
+.serv {
   font-weight: 400;
   text-shadow: 1px 1px 1px gray, 1px 2px 1px gray, 1px 3px 1px gray,
     1px 4px 1px gray, 1px 5px 1px gray;
@@ -14,18 +14,20 @@
   font-family: "Orbitron", sans-serif;
 }
 
-.address {
+.card {
+  width: 30%;
+  min-width: 200px;
+  margin: 5px;
+}
+
+.servi {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
 }
 
-.row {
-  width: 90%;
-  margin: auto;
-  margin-bottom: 50px;
-}
-
-.insideaddress {
-  margin: 0;
-  margin-left: 20px;
-  margin-top: 0;
+.card-imagee {
+  height: 300px;
 }
