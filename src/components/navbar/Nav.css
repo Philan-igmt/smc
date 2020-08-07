@@ -3,6 +3,7 @@
   margin-left: 50px;
   width: 200px;
   height: 100px;
+  z-index: 1;
 }
 
 li a {
@@ -12,11 +13,15 @@ li a {
   font-size: xx-large;
 }
 li a:hover {
-  color: coral;
+  color: rgb(17, 16, 15);
 }
 
 .nav-wrapper {
   position: fixed;
   top: 0px;
+  z-index: 1;
+}
+
+.brand-logo {
   z-index: 1;
 }

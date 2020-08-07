@@ -4,7 +4,11 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
-function Home() {
+const Home = () => {
+  useEffect(() => {
+    //initializing materialize css JS
+    M.AutoInit();
+  });
   return (
     <div className="home">
       <h2 className="logo black-text center">Sibongokuhle Creative Minds</h2>
@@ -49,6 +53,6 @@ function Home() {
       </div>
     </div>
   );
-}
+};
 
 export default Home;

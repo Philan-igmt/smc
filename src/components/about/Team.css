@@ -1,0 +1,9 @@
+.Deteam {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-imagee {
+  height: 400px;
+}

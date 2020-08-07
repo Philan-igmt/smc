@@ -7,6 +7,8 @@ import Home from "./components/home/Home";
 import Contact from "./components/contact/Contact";
 import Pallery from "./components/gallery/Gallery";
 import Services from "./components/services/Services";
+import About from "./components/about/About";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   useEffect(() => {
@@ -14,13 +16,23 @@ function App() {
     M.AutoInit();
   });
   return (
-    <div className="App">
-      <Nav />
-      <Home />
-      <Contact />
-      <Services />
-      <Pallery />
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Switch>
+          {/* <Home /> */}
+          <Route path="/" exact component={Home} />
+          <Route path="/about" exact component={About} />
+          <Route path="/services" exact component={Services} />
+          <Route path="/gallery" exact component={Pallery} />
+          <Route path="/contact" exact component={Contact} />
+          <About />
+          {/* <Services />
+          <Pallery />
+          <Contact /> */}
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

@@ -33,14 +33,14 @@ function Services() {
     },
 
     {
-      name: "LIFE EVENT PRODUCTION",
+      name: "LIVE EVENT PRODUCTION",
       src:
         "https://i.pinimg.com/originals/a6/88/59/a688599a455f3a1facbed47c55af6624.jpg",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde rerum suscipit deserunt quod quo voluptatibus similique rem, nobis voluptates?",
     },
     {
-      name: "PERFOMANCE AND CELEBRATION",
+      name: "PERFOMANCES AND CELEBRATIONS",
       src:
         "https://www.capetownmagazine.com/media_lib/preview/0ddf90c22ab4adf2c94e3590bd6fbdcf.preview.jpg",
       desc:

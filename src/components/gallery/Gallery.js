@@ -90,7 +90,7 @@ const Pallery = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="">
       <div className="gall">
         <h2 className="gal">Gallery</h2>
       </div>
