@@ -1,0 +1,25 @@
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  color: white;
+}
+.footer a:hover {
+  color: rgb(51, 173, 98);
+}
+
+.gal-image {
+  position: center;
+  size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 500px;
+}

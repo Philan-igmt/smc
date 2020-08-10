@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "materialize-css/dist/css/materialize.min.css";
+import M from "materialize-css/dist/js/materialize.min.js";
 import "./Home.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   useEffect(() => {
@@ -13,7 +16,9 @@ const Home = () => {
     <div className="home">
       <h2 className="logo black-text center">Sibongokuhle Creative Minds</h2>
       <div className="center button">
-        <button className="btn black white-text c btn-large">Contact us</button>
+        <Link to="/contact" className="btn black white-text c btn-large">
+          Contact us
+        </Link>
       </div>
 
       <div className="fixed-action-btn">

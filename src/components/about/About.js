@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import ceo from "./images/ceo.jpeg";
 import Team from "./Team";
+import Footer from "../footer/Footer";
 
 const About = () => {
   return (
@@ -67,6 +68,7 @@ const About = () => {
       <div className="team">
         <h2 className="abou center">Meet the team</h2>
         <Team />
+        <Footer />
       </div>
     </div>
   );

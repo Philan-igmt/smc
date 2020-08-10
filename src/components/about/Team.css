@@ -7,3 +7,10 @@
 .card-imagee {
   height: 400px;
 }
+.card {
+  transition: 1s;
+  margin: 30px;
+}
+.card:hover {
+  transform: scale(1.1);
+}

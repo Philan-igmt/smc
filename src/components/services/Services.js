@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css";
+import Footer from "../footer/Footer";
 
 function Services() {
   const data = [
@@ -65,6 +66,7 @@ function Services() {
         <h2 className="serv">Services</h2>
       </div>
       <div className="servi">{services}</div>
+      <Footer />
     </div>
   );
 }
